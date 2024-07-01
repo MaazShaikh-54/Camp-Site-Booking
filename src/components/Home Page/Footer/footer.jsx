@@ -15,7 +15,7 @@ export default function Footer() {
             Contact Us
           </Link>
             <h3>E-mail us your query:</h3>
-            <a href="mailto:musabvivoy83@gmail.com">
+            <a href="mailto:mohammd.maaz.shaikh54@gmail.com">
             <img src="https://i.pinimg.com/originals/56/dd/1a/56dd1a05af2ce0d493f1eb1ce98ba9d0.png" alt="E-mail us" style={{width: 60, borderRadius: 50, objectFit: 'cover'}} />
           </a>
         </div>
