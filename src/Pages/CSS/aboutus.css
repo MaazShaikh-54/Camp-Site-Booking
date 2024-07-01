@@ -1,0 +1,23 @@
+#aboutusbgimg img {
+    border-radius: 9px;
+    align-items:center;
+    margin-left: 42.5%;
+}
+
+#aboutourwebsite {
+    text-align: center;
+}
+
+#bgcolabout {
+    margin-top: 10px;
+    background-color: #fbf9f9;
+    padding: 25px;
+    color: #604976;
+    font-weight: bolder;
+    font-size:7mm;
+}
+
+.ppatou {
+    padding: 40px;
+    font-family:'Courier New', Courier, monospace;
+}

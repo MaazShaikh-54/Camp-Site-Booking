@@ -1,0 +1,23 @@
+#packages td {
+    padding: 20px;
+    color: #fbb13c;
+    font-weight: bolder;
+    background-color: #29282893;
+}
+
+#packages th {
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+    background-color: #00000093;
+}
+
+#packages h1 {
+    color: white;
+}
+
+#packages {
+    background: #017d80;
+    margin-top: 30px;
+    padding: 30px;
+}

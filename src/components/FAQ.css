@@ -1,0 +1,31 @@
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .question-text {
+    flex: 1;
+  }
+  
+  .icon {
+    font-size: 1.2em;
+  }
+  
+  .faq-answer {
+    padding: 10px 0;
+  }
+  

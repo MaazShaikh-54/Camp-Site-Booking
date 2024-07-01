@@ -1,0 +1,27 @@
+.contactcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: #f3f3f3;
+    margin-top: 55px;
+    padding-bottom: 70px;
+}
+
+.contactcontainer img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contactcontainer img:hover {
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    background-color: #f3f3f3;
+    text-align: center;
+    margin-top: 50px;
+}

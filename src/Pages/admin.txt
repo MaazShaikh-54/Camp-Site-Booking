@@ -1,0 +1,86 @@
+import React/* , { useState, useEffect } */ from "react";
+import Campsitenav from "../components/Home Page/navbar/navigation";
+import Footer from "../components/Home Page/Footer/footer";
+import "./CSS/admin.css";
+
+const Admin = () => {
+  /*  // State variables for bookings, product details, traffic, and packages
+    const [bookings, setBookings] = useState([]);
+    const [productDetails, setProductDetails] = useState({});
+    const [traffic, setTraffic] = useState({});
+    const [packages, setPackages] = useState([]);
+
+    // Fetch bookings, product details, traffic, and packages on component mount
+    useEffect(() => {
+        fetchBookings();
+        fetchProductDetails();
+        fetchTraffic();
+        fetchPackages();
+    }, []);
+
+    // Function to fetch bookings
+    const fetchBookings = () => {
+        // Implement your logic to fetch bookings from the server
+        // Update the bookings state variable with the fetched data
+    };
+
+    // Function to fetch product details
+    const fetchProductDetails = () => {
+        // Implement your logic to fetch product details from the server
+        // Update the productDetails state variable with the fetched data
+    };
+
+    // Function to fetch traffic
+    const fetchTraffic = () => {
+        // Implement your logic to fetch traffic data from the server
+        // Update the traffic state variable with the fetched data
+    };
+
+    // Function to handle updating product details
+    const updateProductDetails = (newDetails) => {
+        // Implement your logic to update the product details with the given newDetails
+    };
+ */
+  return (
+    <div>
+      <Campsitenav /><br /><br /><br />
+      <div id="containeradmindash">
+        <div>
+          <h2>Bookings</h2>
+          {/* <ul>
+            {bookings.map((booking, index) => (
+              <li key={index}>{booking}</li>
+            ))}
+          </ul> */}
+        </div>
+
+        <div id="containeradmindash">
+          {/* Render the product details */}
+          <h2>Product Details</h2>
+          {/* <p>{productDetails.name}</p>
+          <p>{productDetails.price}</p> */}
+        </div>
+
+        <div id="containeradmindash">
+          {/* Render the traffic */}
+          <h2>Traffic</h2>
+          {/* <p>{traffic.visitors}</p>
+          <p>{traffic.pageViews}</p> */}
+        </div>
+
+        <div id="containeradmindash">
+          {/* Render the packages */}
+          <h2>Packages</h2>
+          {/* <ul>
+            {packages.map((package, index) => (
+              <li key={index}>{package}</li>
+            ))}
+          </ul> */}
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default Admin;

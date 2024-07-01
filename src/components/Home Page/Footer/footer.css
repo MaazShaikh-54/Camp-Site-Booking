@@ -1,0 +1,22 @@
+.footer {
+    background-color: #081320;
+    color: rgb(255, 255, 255);
+    padding-bottom: 1%;
+    container: flex;
+    flex-direction: column;
+}
+
+#footpadding {
+    padding: 30px;
+    padding-bottom: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size:large;
+}
+
+#loccamp {
+  padding: 30px;
+}

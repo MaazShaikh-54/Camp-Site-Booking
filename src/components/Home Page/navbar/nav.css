@@ -1,0 +1,185 @@
+/* Tetradic Color: 
+1. #017d80 Gasoline blue
+2. #604976 Mauve
+3. #764949 Maroon
+4. #607649 Olive Green
+5. #018043 Green*/
+
+/* Navbar */
+nav {
+    color: #004546;
+    background: transparent /* linear-gradient(#5579C6, #648ee7, #779df1, #f5f5dc) */;
+    /* text-align: center; */
+    padding: 1px 1px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bolder;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0%;
+    padding: 15px 20px;
+  }
+  
+#link {
+    text-decoration: none;
+    color: #017d80 /* 004546 */;
+    background-color: transparent;
+    font-size: 20px;
+}
+  
+#link:hover {
+    color: #fbb13c;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: rgb(208, 1, 1);
+    text-decoration-thickness: 5px;
+    text-decoration-line: overline;
+}
+/* --------------------------------------- */
+/* Logo Image */
+#image {
+    background-image: url("../BgImg/CamSiteLogo.png");
+    float: inline-start;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 10px;
+    margin-bottom: 0%;
+    padding: 39px 39px;
+    height: 57px;
+    width: 57px;
+}
+/* --------------------------------------- */
+
+/* Auth.css */
+.mainnavcss {
+    font-family: Arial, sans-serif;
+    margin-bottom: 0%;
+  }
+  
+nav button {
+    background-color: #017d80;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.popupcontainer {
+  display: inline;
+  float: inline-end;
+  position: absolute;
+  margin-left: 30%;
+  padding-top: 12px;
+  z-index: 1000;
+}
+  
+  .popup-overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background-color: rgba(225, 225, 225, 0.763);
+    padding: 20px;
+    padding-top: 0%;
+    width: 90%;
+    margin-left: -110%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.395);
+    text-align: center;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 4.3%;
+    right: 102%;
+    background-color: #a2cec9;
+    border: none;
+    border-radius: 10%;
+    color: #625d83;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  
+  h2 {
+    padding-top: 20px;
+  }
+
+  input {
+    padding: 7px;
+    margin: 5px;
+    margin-top: 0%;
+    border-radius: 5px;
+    border: #fbb13c;
+  }
+
+ /*  https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2016/10/Camping-in-Ladakh.jpg 
+ 
+ https://img.traveltriangle.com/blog/wp-content/uploads/2020/04/shutterstock_597509039.jpg*/
+
+  #Text1, #Text2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size:7mm;
+    color: #604976;
+    align-items: center;
+    text-align: center;
+  }
+  #Text3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding-top: 0%;
+    font-size:9mm;
+    align-items: center;
+    text-align: center;
+  color: transparent; 
+  text-shadow: 
+    0 0 0 #fbb13c, 
+    -2px -1px 0 #604976, 
+    1px -1px 0 #604976, 
+    -1px 1px 0 #604976, 
+    1px 1px 0 #604976; 
+  }
+
+  #Text1 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+
+  #Text2 {
+    padding-top: 10px;
+  }
+
+  .search {
+    background-color: #fbf9f9;
+    background-size: cover;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    margin: 0%;
+    align-items: center;
+  }
+
+  #searchbox {
+    align-items: center;
+    margin-left: 41%;
+    margin-right: 41%;
+    /* background: linear-gradient(to bottom, #fbf9f9 50%, #f16565 50% ); */
+    border: 1px solid #fbb13c;
+    border-radius: 13px;
+  }

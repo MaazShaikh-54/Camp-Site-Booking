@@ -1,0 +1,70 @@
+#topmargin {
+  margin-top: 6%;
+}
+
+.payment-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.payment-page h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.payment-form-group {
+  margin-bottom: 10px;
+  margin-left: 12%;
+}
+
+.payment-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.payment-form-group input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.payment-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 66.55%;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.payment-button:hover {/* 
+  padding: 10px; */
+  background-color: #0056b3;
+}
+
+.payment-message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .payment-page {
+    padding: 10px;
+  }
+}
+
+.gpay-payment p {
+  margin-left: 37%;
+}
+
+.gpay-payment button {
+  margin-left: 41%;
+}

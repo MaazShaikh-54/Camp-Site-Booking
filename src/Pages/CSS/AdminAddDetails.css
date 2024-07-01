@@ -1,0 +1,42 @@
+#adddetails {
+    margin-top: 30px;
+    background: #017d80;
+    padding: 30px;
+}
+
+#adddetails h1 {
+    color: white;
+}
+
+#adddetails label {
+    color: black;
+    font-weight: bolder;
+}
+
+#adddetails label,textarea {
+    margin-left: 45%;
+    margin-right: auto;
+}
+
+#adddetails input {
+    margin-left: 45%;
+    margin-right: auto;
+}
+
+#adddetails button {
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    background: #018043;
+    color: white;
+}
+
+#adddetails form {
+    background-color: #fbb23cee;
+    border-radius: 7px;
+    padding: 30px;
+}

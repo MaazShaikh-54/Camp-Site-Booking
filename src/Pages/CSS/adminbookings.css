@@ -1,0 +1,37 @@
+#bookings {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #017d80;
+}
+
+#bookings h1 {
+    padding-bottom: 70px;
+    color: white;
+}
+
+#bookings table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+#bookings th {
+    background-color: #171818b8;
+    color: white;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+#bookings table td {
+    background-color: #2e2e2eb8;
+    color: #fbb13c;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000;
+}
